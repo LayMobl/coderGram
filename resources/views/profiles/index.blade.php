@@ -9,7 +9,7 @@
         <div class="col-9 p-5">
             <div class="d-flex justify-content-between align-items-baseline">
                 <div class="d-flex align-items-center pb-3">
-                    <div class="h4">{{$user->username}}</div>
+                    <div class="h4">{{$user->profile->title}}</div>
                     @if(auth()->user()->id !== $user->id)
                         <follow-button user-id="{{$user->id}}" follow="{{$follow}}"></follow-button>
                     @endif
