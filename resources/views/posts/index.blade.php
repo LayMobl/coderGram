@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="container">
-    @include('profiles.list', ['users' => \App\User::all()->take(5)])
+    @inject('users', '\App\Http\Controllers\ProfilesController')
+    {!! $users->list() !!}
     @if(empty($posts))
         <h1 class="py-5 text-center">No recent posts from the people you follow :(</h1>
     @else
@@ -30,6 +31,9 @@
                     </div>
                 </div>
         @endforeach
+        <div class="row col-12 d-flex justify-content-center">
+            {{$posts->links()}}
+        </div>
     @endif
 </div>
 @endsection
