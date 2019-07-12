@@ -1,4 +1,4 @@
-Application coderGram (Petit projet sur base d'instagram)
+<b>Application coderGram (Petit projet sur base d'instagram)</b>
 
 Crédentials du compte principal pour démonstration:
     
