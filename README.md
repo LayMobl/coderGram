@@ -1,5 +1,11 @@
 Application coderGram (Petit projet sur base d'instagram)
 
+Crédentials du compte principal pour démonstration:
+    
+    -Mail: test@test.com
+    -Password: testtest
+    
+
 Features:
 
     GENERAL:
