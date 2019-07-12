@@ -5,12 +5,14 @@ Features:
     -Création de comptes
     -Authentification
 
-POSTS
+POSTS:
+
     -Liste de posts du compte
     -Ajout de post
     -Édition d'un post
 
-USER
+USER:
+
     -Nombre de follows/followers/posts
     -Liste des posts des users suivis
     -Suggestion de nouveaux users
