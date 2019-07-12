@@ -20,3 +20,10 @@ Features:
         -Suggestion de nouveaux users
         -Modification du profil
         -Possibilités de follow/unfollow un autre user
+
+Ajout futurs:
+
+    -Supression de compte
+    -Traduction FR/ENG
+    -Supression d'un post
+    -Liste de tous les users
